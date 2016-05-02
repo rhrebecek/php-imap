@@ -1,5 +1,5 @@
 {
-    "name": "rhrebecek/php-imap",
+    "name": "rhrebecek/php-mail",
     "description": "PHP IMAP without extends php-imap",
     "keywords": [
         "php",
