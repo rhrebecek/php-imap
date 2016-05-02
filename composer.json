@@ -31,8 +31,7 @@
         "nette/tester": "~1.6@rc"
     },
     "autoload": {
-        "psr-0": {
-            "RHrebecek\\PHPMail\\": "src/"
-        }
-    }
+        "classmap": ["src/"]
+    },
+    "minimum-stability": "stable"
 }
