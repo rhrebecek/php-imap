@@ -1,0 +1,39 @@
+{
+    "name": "rhrebecek/php-imap",
+    "description": "PHP IMAP without extends php-imap",
+    "keywords": [
+        "php",
+        "imap",
+        "mail"
+    ],
+    "type": "library",
+    "homepage": "http://hrebecek.cz",
+    "license": [
+        "BSD-3-Clause",
+        "GPL-2.0",
+        "GPL-3.0"
+    ],
+    "support": {
+        "email": "radek@hrebecek.cz",
+        "issues": "https://github.com/rhrebecek/php-mail/issues"
+    },
+    "authors": [
+        {
+            "name": "Radek Hřebeček",
+            "homepage": "http://hrebecek.cz",
+            "email": "radek@hrebecek.cz"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "nette/tester": "~1.6@rc"
+    },
+    "autoload": {
+        "psr-0": {
+            "RHrebecek\\PHPMail\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
